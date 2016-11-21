@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/description"
+        android:scaleType="fitXY"
+        android:src="@drawable/a" />
+
+    <TableRow android:gravity="center"
+        	android:layout_weight="0">
+        	
+        	<Button android:id="@+id/playbutton"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/play"
+        	    style="?android:attr/buttonBarButtonStyle"/>
+        	
+        	<Button android:id="@+id/stopbutton"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="@string/stop"
+        	    style="?android:attr/buttonBarButtonStyle"/>
+        </TableRow>
+
+</TableLayout>
