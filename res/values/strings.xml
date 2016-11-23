@@ -6,4 +6,6 @@
 	<string name="description">Fucking this Girl!!</string>
 	<string name="play">PLAY</string>
 	<string name="stop">STOP</string>
+	<string name="pause">PAUSE</string>
+	<string name="restar">RESTAR</string>
 </resources>
